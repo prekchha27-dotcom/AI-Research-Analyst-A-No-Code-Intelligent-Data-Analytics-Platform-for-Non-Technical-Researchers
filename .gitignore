@@ -1,0 +1,56 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env/
+*.env
+
+# ── Secrets & credentials ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+secrets.toml
+.streamlit/secrets.toml
+
+# ── Streamlit cache ────────────────────────────────────────────────────────────
+.streamlit/cache/
+
+# ── Distribution / packaging ──────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ── Testing & coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Editors & OS ──────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Temporary & log files ─────────────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+streamlit_out.log
+streamlit_err.log
+
+# ── Uploaded / generated data files (not part of source) ──────────────────────
+# Remove these lines if you want to commit sample data:
+# *.csv
+# *.xlsx
+# *.xls

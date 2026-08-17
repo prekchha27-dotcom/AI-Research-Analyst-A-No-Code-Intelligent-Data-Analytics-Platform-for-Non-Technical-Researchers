@@ -1,0 +1,15 @@
+[browser]
+gatherUsageStats = false
+
+[theme]
+base            = "light"
+
+# Glide Data Grid canvas reads ONLY these values — CSS cannot reach it.
+# textColor       = cell text colour
+# secondaryBackgroundColor = cell background colour (also controls sidebar background)
+# If these two are too similar, text is invisible.
+primaryColor             = "#1565c0"   # blue — buttons, active tabs, focus rings
+backgroundColor          = "#fdf6d3"   # pastel yellow — main page
+secondaryBackgroundColor = "#1a237e"   # dark navy — sidebar background
+textColor                = "#0a0f1a"   # near-black — table cell text (max contrast)
+font                     = "sans serif"
