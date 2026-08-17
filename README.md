@@ -24,7 +24,6 @@ Researchers without programming expertise often struggle to:
 Existing tools either require coding knowledge (Python, R) or are expensive commercial packages. AI Research Analyst addresses this gap with a free, open-source, no-code solution.
 
 ---
-
 ## Objectives
 
 1. Provide automated variable classification and analytical role assignment for any uploaded dataset.
@@ -37,6 +36,9 @@ Existing tools either require coding knowledge (Python, R) or are expensive comm
 8. Require no API keys, cloud services, or external dependencies of any kind.
 
 ---
+## System Architecture
+
+![System Architecture](img_1786944673095.png)
 
 ## System Approach
 
